@@ -1,10 +1,10 @@
-import Image from 'next/image'
+import MBTIInput from "@/components/MBTIInput"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      In Progress 🥺
-      Welcome to My Portfolio
-    </main>
+    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div> What's Your MBTI?</div>
+      <MBTIInput />
+    </div>
   )
 }
