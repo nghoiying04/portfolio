@@ -8,7 +8,7 @@ export default function MBTIInput() {
   const router = useRouter()
 
   const getOutput = () => {
-    router.push(`/mbti?type=${input}`)
+    router.push(`/mbti/result?type=${input}`)
   }
 
   return (

@@ -1,20 +1,10 @@
-import MBTIDisplay from "@/components/MBTIDisplay"
-import { redirect } from "next/navigation"
+import MBTIInput from "@/components/MBTIInput"
 
-interface MBTIPageProps {
-  searchParams: {
-    type: string
-  }
-}
-
-export default function MBTIPage({ searchParams: { type } }: MBTIPageProps) {
-  if (type === null) {
-    redirect("../")
-  } else {
-    return (
-      <>
-        <MBTIDisplay mbti={type} />
-      </>
-    )
-  }
+export default function MBTIPage() {
+  return (
+    <>
+      <div> What's Your MBTI?</div>
+      <MBTIInput />
+    </>
+  )
 }
