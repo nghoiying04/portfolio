@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/nextjs-github-pages",
-  images: {
-    unoptimized: true
-  }
+  basePath: "/nextjs-github-pages"
 }
 
 module.exports = nextConfig
