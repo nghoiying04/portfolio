@@ -4,12 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  rewrites: [
-    {
-      source: "\\(!nextjs-github-pages\\)*",
-      destination: "nextjs-github-pages*"
-    }
-  ],
   experimental: {
     typedRoutes: true
   }
