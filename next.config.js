@@ -3,9 +3,6 @@ const nextConfig = {
   basePath: "/nextjs-github-pages",
   images: {
     unoptimized: true
-  },
-  experimental: {
-    typedRoutes: true
   }
 }
 
