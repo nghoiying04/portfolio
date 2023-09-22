@@ -1,5 +1,4 @@
 import MBTIDisplay from "@/components/MBTIDisplay"
-import { redirect } from "next/navigation"
 
 interface MBTIPageProps {
   searchParams: {
@@ -10,13 +9,9 @@ interface MBTIPageProps {
 export default function MBTIResultPage({
   searchParams: { type }
 }: MBTIPageProps) {
-  if (type === null) {
-    redirect("../")
-  } else {
-    return (
-      <>
-        <MBTIDisplay mbti={type} />
-      </>
-    )
-  }
+  return (
+    <>
+      <MBTIDisplay mbti={type ?? ""} />
+    </>
+  )
 }
