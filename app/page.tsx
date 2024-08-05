@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Home() {
+const HomePage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-24">
       <Link href="/mbti">MBTI</Link>
@@ -10,3 +10,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default HomePage
