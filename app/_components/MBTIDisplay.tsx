@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 interface MBTIDetailsProps {
   mbti: string

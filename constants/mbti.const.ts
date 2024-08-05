@@ -1,1 +1,1 @@
-export type MBTI = "INFJ" | "INFP" | "INTJ" | "INTP" | "ISFJ" | "ISTJ"
+export type MBTI = 'INFJ' | 'INFP' | 'INTJ' | 'INTP' | 'ISFJ' | 'ISTJ'

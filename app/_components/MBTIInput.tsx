@@ -1,14 +1,14 @@
-"use client"
+'use client'
 
-import { useRouter } from "next/navigation"
-import { useState } from "react"
+import { useRouter } from 'next/navigation'
+import { useState } from 'react'
 
 export default function MBTIInput() {
-  const [input, setInput] = useState<string>("")
+  const [input, setInput] = useState<string>('')
   const router = useRouter()
 
   const getOutput = () => {
-    router.push(`/mbti/result?type=${input}`)
+    if (input === 'ENFJ') router.push(`/mbti/result/ENFJ`)
   }
 
   return (

@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: "/nextjs-github-pages"
+  basePath: '/coffee',
+  output: 'export',
+  reactStrictMode: true
 }
 
 module.exports = nextConfig
