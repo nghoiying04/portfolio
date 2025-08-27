@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[765],{6913:function(n,e,t){Promise.resolve().then(t.bind(t,8336))},8336:function(n,e,t){"use strict";t.d(e,{default:function(){return r}});var u=t(7437);function r(n){let{mbti:e}=n;return(0,u.jsxs)(u.Fragment,{children:["Your MBTI is ",e]})}}},function(n){n.O(0,[971,23,744],function(){return n(n.s=6913)}),_N_E=n.O()}]);

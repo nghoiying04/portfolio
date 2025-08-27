@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "pdf:base64": "node scripts/pdf-to-base64.mjs",
     "format": "next lint --fix && prettier -w *"
   },
   "dependencies": {
